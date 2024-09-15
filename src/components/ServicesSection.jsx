@@ -12,7 +12,7 @@ const ServicesSection = () => {
                         I offer a range of services to help you achieve the results you’re after. Whether you’re looking for a stunning design, a robust website, or a seamless mobile app, I’ve got you covered.
                     </p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 
                     {/* Layanan 1: UI/UX Design */}
                     <div className="bg-white p-6 rounded-lg shadow-lg text-center">
@@ -29,15 +29,6 @@ const ServicesSection = () => {
                         <h3 className="text-2xl font-semibold mb-4">Web Development</h3>
                         <p className="text-gray-700">
                             I build responsive and high-performance websites using the latest technologies. Whether you need a landing page or a full-fledged web application, I can deliver a solution tailored to your needs.
-                        </p>
-                    </div>
-
-                    {/* Layanan 3: Mobile App Development */}
-                    <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-                        <DeviceMobile className="text-indigo-600 text-5xl mx-auto mb-4" />
-                        <h3 className="text-2xl font-semibold mb-4">Mobile App Development</h3>
-                        <p className="text-gray-700">
-                            I create mobile applications that offer a seamless experience on both iOS and Android platforms. From concept to deployment, I ensure your app is intuitive and engaging.
                         </p>
                     </div>
 
